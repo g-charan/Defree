@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract DappWorks is Ownable, ReentrancyGuard {
+contract Defree is Ownable, ReentrancyGuard {
     using Counters for Counters.Counter;
 
     Counters.Counter private _jobCounter;
